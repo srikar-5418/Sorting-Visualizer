@@ -445,6 +445,14 @@ if((screen.width<screen.height)&&(screen.width<(screen.height/2)))
     document.getElementById("fo2").style.paddingLeft=(`${screen.width*0.13}px`);
     document.getElementById("fo3").style.paddingLeft=(`${screen.width*0.13}px`);
 }
+else if((screen.width>screen.height)&&(screen.width<1000))
+{
+    document.getElementById("foot").style.visibility="hidden";
+}
+else if(Math.abs(screen.width-screen.height)<300)
+{
+    document.getElementById("foot").style.visibility="hidden";
+}
 else
 {
     document.getElementById("foot").style.position="relative";
