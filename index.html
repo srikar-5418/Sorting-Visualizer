@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="title">
+   <span id="text"><span class="text">S</span><span class="text">O</span><span class="text">R</span><span class="text">T</span><span class="text">I</span><span class="text">N</span><span class="text">G</span><span class="text">.</span><span class="text">.</span></span>
+   </div>
+   <div class="box" >
+    <div id="animation" class="animate">       
+    </div>
+    <div class="buttons" id="buttons" style="width:397px">
+        <div class="topbuttons" id="topbuttons">
+            <div class="button" id="button2"  style=" width: 60px;">Bubble Sort</div>
+            <div class="button" id="button3"  style=" width: 65px;">Selection Sort</div>
+            <div class="button" id="button4"  style=" width: 72px; ">Inserstion Sort</div>
+        </div>
+       <div class="button" id="button5"  style=" width: 50px; "><span id="s1" style="padding-left: 8px;">Merge Sort</span></div>
+       <div class="button" id="button6"  style=" width: 50px;"><span id="s2" style="padding-right: 8px;">Quick Sort</span></div>
+       
+       <div class="sliderbox" id="sliderbox">
+           <div class="buttonr" id="buttonr" style="height: 24px; margin:5px"><span id="button1" style="background-color: #a64ac9; color: white; border-radius: 10px;">Refresh</span></div>
+           <div id="slidebox" class="slidebox">
+               <div class="slidecontainer" style="padding-top: 30px;">
+                   <p style="font-weight: 700; font-family: 'Oswald', sans-serif;"> SIZE: </p>
+                   <input type="range" min="30" max="100" id="slider1" class="slider">
+                </div>
+                <div class="slidecontainer" style="padding-bottom: 30px;">
+                    <p style="font-weight: 700; font-family: 'Oswald', sans-serif;">DELAY: </p>
+                    <input type="range" min="0" max="1000" value="25" id="slider2" class="slider">
+                </div>
+            </div>
+        </div>
+        <div class="timebox" id="timebox">
+            <span> TIME TAKEN : _______ms </span>
+        </div>
+        <div class="opbox" id="opbox">
+            <span> OPERATIONS TAKEN : _______ </span>
+        </div>
+    </div>
+    
+</div>
+<div   id="foot" style="background-color: #fef9c7;margin-top: 75px; height: 100px;margin: 4px -10px -10px -10px;">
+    <p id="fo2" style="background-color: #fef9c7; font-family: Oswald ,'sans-serif'; margin: 0px; padding-left: 15px;" ><i class="fa fa-linkedin-square"></i><a href="https://www.linkedin.com/in/srikar-gujja-8516421a6/" style="background-color: #fef9c7; font-family: Oswald ,'sans-serif'; text-decoration: solid;">  Linkedin  </a></p>
+    <p id="fo3" style="background-color: #fef9c7; font-family: Oswald ,'sans-serif'; margin: 0px; padding-left: 15px; "><i class="fa fa-github-square"></i><a href="https://github.com/srikar-5418" style="background-color: #fef9c7; font-family: Oswald ,'sans-serif'; text-decoration: solid;">  Github</a></p>
+    <p id="fo1" style="background-color: #fef9c7; font-family: Oswald ,'sans-serif'; margin: 0px; padding-left: 15px; ">@2023 all copyrights are reserved by srikar
+    </p>
+</div>
+    <script src="ijs.js"></script>
+</body>
+</html>
