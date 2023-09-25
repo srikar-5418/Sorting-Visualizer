@@ -1,0 +1,177 @@
+
+*
+{
+    background-color: white;
+    font-family: 'Oswald', sans-serif;
+}
+.block{
+    border-radius: 2px 2px 0px 0px;
+}
+.buttons{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 33px;
+}
+.title{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    text-shadow: 3px 0px 5px #ffd93b;
+    color: #a64ac9;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 55px;
+    font-style: bold;
+}
+.button{
+    text-align: center;
+    margin:7px 5px;
+    padding:6px 0px 2px 0px;
+    font-size: 16px;
+    height: 24px;
+    color:#a64ac9;
+    text-shadow: 1px 0px 0px  #ffd93b;
+    font-weight: 600;
+}
+#button2:hover,#button3:hover,#button4:hover{
+    color: white;
+    background-color: #a64ac9;
+    border-radius: 3px;
+}
+#button5:hover,#button6:hover{
+    color: white;
+    background-color: #a64ac9;
+    border-radius: 3px;
+    #s1,#s2{
+        background-color: #a64ac9;
+    }
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+}
+.slidecontainer
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sliderbox
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #a64ac9;
+}
+.buttonr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   font-weight: 500;
+   font-family: 'Oswald', sans-serif;
+}
+.slidebox{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.timebox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.opbox{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.animate{
+    display: flex;
+    align-items: flex-end;
+    border-width :1.5px ;
+    border-style: solid;
+    border-color: #fef9c7;
+    margin-left: 20px;
+    background-color: #fef9c7;
+}
+.topbuttons
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#button1{
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-left-width: 2px;
+    border-left-style: solid;
+    border-right-width: 2px;
+    border-right-style: solid;
+    border-bottom-width: 2px;
+  border-bottom-style: solid;
+  padding-top: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 25px;
+}
+.timebox,.opbox{
+    font-size: 18px;
+    color:#a64ac9;
+    font-weight: 600;
+    font-family: 'Oswald', sans-serif;
+}
+.slider {
+    -webkit-appearance: none;
+    appearance: none; 
+    width: 100%;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+    border-radius: 16px;
+  }
+  
+  .slider::-webkit-slider-runnable-track {
+    height: 15px;
+    background:#fff7a2;
+    border-radius: 16px;
+  }
+  
+  .slider::-moz-range-track {
+    height: 15px;
+    background: #fff7a2;
+    border-radius: 16px;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none; 
+    height: 15px;
+    width: 15px;
+    background-color: #fff7a2;
+    border-radius: 50%;
+    border: 2px solid #e8adff;
+    box-shadow: -407px 0 0 400px #e8adff;
+  }
+  
+  .slider::-moz-range-thumb {
+    height: 15px;
+    width: 15px;
+    background-color: #e8adff;
+    border-radius: 50%;
+    border: 1px solid #e8adff;
+    box-shadow: -407px 0 0 400px #e8adff;
+  }
+  #foot{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
